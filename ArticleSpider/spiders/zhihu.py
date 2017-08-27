@@ -5,6 +5,7 @@ import scrapy
 import re
 import json
 import time
+
 try:
     # Python3
     from urllib import parse
@@ -21,7 +22,7 @@ class ZhihuSpider(scrapy.Spider):
     allowed_domains = ["www.zhihu.com"]
     start_urls = ['http://www.zhihu.com/']
 
-    # question的第一页answer的请求url
+    # question的第一页answer的请求url,用来拼接回答请求
     start_answer_url = "https://www.zhihu.com/api/v4/questions/{0}/answers?sort_by=default&include=data%5B%2A%5D.is_normal%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccollapsed_counts%2Creviewing_comments_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Cmark_infos%2Ccreated_time%2Cupdated_time%2Crelationship.is_author%2Cvoting%2Cis_thanked%2Cis_nothelp%2Cupvoted_followees%3Bdata%5B%2A%5D.author.is_blocking%2Cis_blocked%2Cis_followed%2Cvoteup_count%2Cmessage_thread_token%2Cbadge%5B%3F%28type%3Dbest_answerer%29%5D.topics&limit={1}&offset={2}"
 
     # request所需的请求头,否则请求会返回500错误
@@ -31,6 +32,7 @@ class ZhihuSpider(scrapy.Spider):
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
     }
 
+    # ?
     custom_settings = {
         'COOKIES_ENABLED': True
     }
@@ -54,8 +56,11 @@ class ZhihuSpider(scrapy.Spider):
             match_obj = url_pat.match(url)
             # 如果是question相关的的URL，则下载并交由提取函数进行字段的提取
             if match_obj:
+
+                # group(num=0)	匹配的整个表达式的字符串，group() 可以一次输入多个组号，在这种情况下它将返回一个包含那些组所对应值的元组。
+
                 request_url = match_obj.group(1)
-                question_id = match_obj.group(2)
+                question_id = match_obj.group(3)
                 yield scrapy.Request(request_url, meta={'question_id': question_id},
                                      headers=self.headers, callback=self.parse_question)
             # 否则的话进一步跟踪
@@ -110,6 +115,10 @@ class ZhihuSpider(scrapy.Spider):
         if not is_end:
             yield scrapy.Request(next_url, headers=self.headers, callback=self.parse_answer)
 
+
+
+
+
     def start_requests(self):
         """
         ZhihuSpider的入口,首先在这里进行请求，从登陆页面得到response，并调用login函数。
@@ -138,7 +147,7 @@ class ZhihuSpider(scrapy.Spider):
             }
             # 这里为了获得验证码图片，在发送一个取得验证码图片的请求，将登陆延迟到login_after_captcha函数中，scrapy的Requests会自动管理cookies
             # 当然也可以直接通过requests来发送相应请求来获得验证码图片，不过要设置cookies，从response里获得,确保cookies一致
-            numbers = str(int(time.time()*1000))
+            numbers = str(int(time.time() * 1000))
             captcha_url = "https://www.zhihu.com/captcha.gif?r={0}&type=login".format(numbers)
             yield scrapy.Request(captcha_url, meta={"post_data": post_data}, headers=self.headers,
                                  callback=self.login_after_captcha)
@@ -147,7 +156,7 @@ class ZhihuSpider(scrapy.Spider):
         post_url = "https://www.zhihu.com/login/phone_num"
         post_data = response.meta.get("post_data", {})
         with open("captcha.jpg", "wb") as f:
-                f.write(response.body)
+            f.write(response.body)
 
         try:
             # 显示验证码
@@ -176,4 +185,3 @@ class ZhihuSpider(scrapy.Spider):
             for url in self.start_urls:
                 # 不指定callback,默认调用parse函数
                 yield scrapy.Request(url, dont_filter=True, headers=self.headers)
-

@@ -177,6 +177,8 @@ class ZhihuQuestionItem(scrapy.Item):
                  ON DUPLICATE KEY UPDATE content=VALUES(content), answer_num=VALUES(answer_num),
                  watcher_num=VALUES(watcher_num), click_num=VALUES(click_num)
             """
+
+        # 对list进行处理 转化为单个的值
         zhihu_id = "".join(self["zhihu_id"])
         topics = ",".join(self["topics"])
         url = "".join(self["url"])
