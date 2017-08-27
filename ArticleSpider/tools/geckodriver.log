@@ -1,0 +1,271 @@
+1501138002878	geckodriver	INFO	geckodriver 0.18.0
+1501138002887	geckodriver	INFO	Listening on 127.0.0.1:51632
+1501138003970	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1501138006899	Marionette	INFO	Listening on port 51645
+1501138006964	Marionette	WARN	TLS certificate errors will be ignored for this session
+1501138007244	Marionette	DEBUG	loaded listener.js
+1501138007278	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-07-27 14:46:47.339 plugin-container[8494:507890] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9437, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-07-27 14:46:47.342 plugin-container[8494:507890] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9803, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1501138008039	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1501138008041	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1501138009260	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.oschina.net/blog"
+1501138009419	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.oschina.net/blog"
+1501138009825	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.oschina.net/blog"
+1501138010501	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://googleads.g.doubleclick.net/pagead/html/r20170724/r20170110/zrt_lookup.html#"
+1501138010503	Marionette	DEBUG	Received DOM event "pageshow" for "https://googleads.g.doubleclick.net/pagead/html/r20170724/r20170110/zrt_lookup.html#"
+1501138011355	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-7090564139599510&format=250x250&output=html&h=250&slotname=9649490513&adk=1772246257&adf=3960662386&w=250&lmt=1501138009&flash=0&url=https%3A%2F%2Fwww.oschina.net%2Fblog&wgl=1&dt=1501138009242&bpp=13&bdt=1204&fdt=20&idt=462&shv=r20170724&cbv=r20170110&saldr=aa&correlator=5970135466647&frm=20&ga_vid=960706987.1501138010&ga_sid=1501138010&ga_hid=1705778182&ga_fc=0&pv=2&icsg=2&nhd=1&dssz=2&mdo=0&mso=0&u_tz=480&u_his=1&u_java=0&u_h=1080&u_w=1920&u_ah=1057&u_aw=1883&u_cd=24&u_nplug=0&u_nmime=0&adx=953&ady=864&biw=1265&bih=849&abxe=1&eid=4089045&oid=3&rx=0&eae=0&fc=528&brdim=%2C%2C37%2C23%2C1883%2C23%2C1280%2C951%2C1280%2C849&vis=1&rsz=%7C%7CeEbr%7C&abl=CS&ppjl=f&pfx=0&fu=16&bc=1&ifi=1&xpc=M0ilGfqu9v&p=https%3A//www.oschina.net&dtd=507"
+1501138012017	Marionette	DEBUG	Received DOM event "pageshow" for "https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-7090564139599510&format=250x250&output=html&h=250&slotname=9649490513&adk=1772246257&adf=3960662386&w=250&lmt=1501138009&flash=0&url=https%3A%2F%2Fwww.oschina.net%2Fblog&wgl=1&dt=1501138009242&bpp=13&bdt=1204&fdt=20&idt=462&shv=r20170724&cbv=r20170110&saldr=aa&correlator=5970135466647&frm=20&ga_vid=960706987.1501138010&ga_sid=1501138010&ga_hid=1705778182&ga_fc=0&pv=2&icsg=2&nhd=1&dssz=2&mdo=0&mso=0&u_tz=480&u_his=1&u_java=0&u_h=1080&u_w=1920&u_ah=1057&u_aw=1883&u_cd=24&u_nplug=0&u_nmime=0&adx=953&ady=864&biw=1265&bih=849&abxe=1&eid=4089045&oid=3&rx=0&eae=0&fc=528&brdim=%2C%2C37%2C23%2C1883%2C23%2C1280%2C951%2C1280%2C849&vis=1&rsz=%7C%7CeEbr%7C&abl=CS&ppjl=f&pfx=0&fu=16&bc=1&ifi=1&xpc=M0ilGfqu9v&p=https%3A//www.oschina.net&dtd=507"
+1501138012025	Marionette	DEBUG	Received DOM event "pageshow" for "https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-7090564139599510&format=250x250&output=html&h=250&slotname=9649490513&adk=1772246257&adf=3960662386&w=250&lmt=1501138009&flash=0&url=https%3A%2F%2Fwww.oschina.net%2Fblog&wgl=1&dt=1501138009242&bpp=13&bdt=1204&fdt=20&idt=462&shv=r20170724&cbv=r20170110&saldr=aa&correlator=5970135466647&frm=20&ga_vid=960706987.1501138010&ga_sid=1501138010&ga_hid=1705778182&ga_fc=0&pv=2&icsg=2&nhd=1&dssz=2&mdo=0&mso=0&u_tz=480&u_his=1&u_java=0&u_h=1080&u_w=1920&u_ah=1057&u_aw=1883&u_cd=24&u_nplug=0&u_nmime=0&adx=953&ady=864&biw=1265&bih=849&abxe=1&eid=4089045&oid=3&rx=0&eae=0&fc=528&brdim=%2C%2C37%2C23%2C1883%2C23%2C1280%2C951%2C1280%2C849&vis=1&rsz=%7C%7CeEbr%7C&abl=CS&ppjl=f&pfx=0&fu=16&bc=1&ifi=1&xpc=M0ilGfqu9v&p=https%3A//www.oschina.net&dtd=507"
+1501138012026	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.oschina.net/blog"
+1501138012036	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.oschina.net/blog"
+1501138026088	Marionette	INFO	New connections will no longer be accepted
+[Child 8494] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+[Child 8494] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+1501138026568	Marionette	INFO	Ceased listening
+1502586297785	geckodriver	INFO	geckodriver 0.18.0
+1502586297797	geckodriver	INFO	Listening on 127.0.0.1:50893
+1502586298937	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1502586302139	Marionette	INFO	Listening on port 50903
+1502586302218	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502586302478	Marionette	DEBUG	loaded listener.js
+1502586302518	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-13 09:05:02.567 plugin-container[2985:62282] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x953b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-13 09:05:02.568 plugin-container[2985:62282] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9803, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1502586303275	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1502586303275	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1502586304356	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.oschina.net/blog"
+1502586304608	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.oschina.net/blog"
+1502586304923	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.oschina.net/blog"
+1502586305099	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.oschina.net/blog"
+1502586305101	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.oschina.net/blog"
+1502586305802	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://googleads.g.doubleclick.net/pagead/html/r20170807/r20170110/zrt_lookup.html#"
+1502586305804	Marionette	DEBUG	Received DOM event "pageshow" for "https://googleads.g.doubleclick.net/pagead/html/r20170807/r20170110/zrt_lookup.html#"
+1502586307431	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-7090564139599510&format=250x250&output=html&h=250&slotname=9649490513&adk=1772246257&adf=3960662386&w=250&lmt=1502586304&loeid=21060497&flash=0&url=https%3A%2F%2Fwww.oschina.net%2Fblog&wgl=1&dt=1502586304584&bpp=17&bdt=1311&fdt=30&idt=264&shv=r20170807&cbv=r20170110&saldr=aa&correlator=3714399095558&frm=20&ga_vid=1775810535.1502586305&ga_sid=1502586305&ga_hid=129546705&ga_fc=0&pv=2&icsg=2&nhd=1&dssz=2&mdo=0&mso=0&u_tz=480&u_his=1&u_java=0&u_h=1080&u_w=1920&u_ah=1057&u_aw=1886&u_cd=24&u_nplug=0&u_nmime=0&adx=953&ady=864&biw=1265&bih=849&abxe=1&eid=188690904&oid=3&rx=0&eae=0&fc=528&brdim=%2C%2C34%2C23%2C1886%2C23%2C1280%2C951%2C1280%2C849&vis=1&rsz=%7C%7CeEbr%7C&abl=CS&ppjl=f&pfx=0&fu=16&bc=1&ifi=1&xpc=sdVAfOBYNR&p=https%3A//www.oschina.net&dtd=325"
+1502586307803	Marionette	DEBUG	Received DOM event "pageshow" for "https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-7090564139599510&format=250x250&output=html&h=250&slotname=9649490513&adk=1772246257&adf=3960662386&w=250&lmt=1502586304&loeid=21060497&flash=0&url=https%3A%2F%2Fwww.oschina.net%2Fblog&wgl=1&dt=1502586304584&bpp=17&bdt=1311&fdt=30&idt=264&shv=r20170807&cbv=r20170110&saldr=aa&correlator=3714399095558&frm=20&ga_vid=1775810535.1502586305&ga_sid=1502586305&ga_hid=129546705&ga_fc=0&pv=2&icsg=2&nhd=1&dssz=2&mdo=0&mso=0&u_tz=480&u_his=1&u_java=0&u_h=1080&u_w=1920&u_ah=1057&u_aw=1886&u_cd=24&u_nplug=0&u_nmime=0&adx=953&ady=864&biw=1265&bih=849&abxe=1&eid=188690904&oid=3&rx=0&eae=0&fc=528&brdim=%2C%2C34%2C23%2C1886%2C23%2C1280%2C951%2C1280%2C849&vis=1&rsz=%7C%7CeEbr%7C&abl=CS&ppjl=f&pfx=0&fu=16&bc=1&ifi=1&xpc=sdVAfOBYNR&p=https%3A//www.oschina.net&dtd=325"
+1502586307810	Marionette	DEBUG	Received DOM event "pageshow" for "https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-7090564139599510&format=250x250&output=html&h=250&slotname=9649490513&adk=1772246257&adf=3960662386&w=250&lmt=1502586304&loeid=21060497&flash=0&url=https%3A%2F%2Fwww.oschina.net%2Fblog&wgl=1&dt=1502586304584&bpp=17&bdt=1311&fdt=30&idt=264&shv=r20170807&cbv=r20170110&saldr=aa&correlator=3714399095558&frm=20&ga_vid=1775810535.1502586305&ga_sid=1502586305&ga_hid=129546705&ga_fc=0&pv=2&icsg=2&nhd=1&dssz=2&mdo=0&mso=0&u_tz=480&u_his=1&u_java=0&u_h=1080&u_w=1920&u_ah=1057&u_aw=1886&u_cd=24&u_nplug=0&u_nmime=0&adx=953&ady=864&biw=1265&bih=849&abxe=1&eid=188690904&oid=3&rx=0&eae=0&fc=528&brdim=%2C%2C34%2C23%2C1886%2C23%2C1280%2C951%2C1280%2C849&vis=1&rsz=%7C%7CeEbr%7C&abl=CS&ppjl=f&pfx=0&fu=16&bc=1&ifi=1&xpc=sdVAfOBYNR&p=https%3A//www.oschina.net&dtd=325"
+1502586307812	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.oschina.net/blog"
+1502586307822	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.oschina.net/blog"
+1502586321877	Marionette	INFO	New connections will no longer be accepted
+1502586425718	geckodriver	INFO	geckodriver 0.18.0
+1502586425722	geckodriver	INFO	Listening on 127.0.0.1:51055
+1502586426916	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1502586428797	Marionette	INFO	Listening on port 51064
+1502586428856	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502586429057	Marionette	DEBUG	loaded listener.js
+1502586429113	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-13 09:07:09.139 plugin-container[3186:65835] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x943b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-13 09:07:09.140 plugin-container[3186:65835] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9703, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1502586429515	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1502586429515	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1502586429685	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=http%3A%2F%2Fweibo.com%2F&domain=.weibo.com&ua=php-sso_sdk_client-0.6.23&_rand=1502586432.1015"
+1502586429693	Marionette	DEBUG	Received DOM event "pageshow" for "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=http%3A%2F%2Fweibo.com%2F&domain=.weibo.com&ua=php-sso_sdk_client-0.6.23&_rand=1502586432.1015"
+1502586440235	Marionette	DEBUG	Received DOM event "pagehide" for "http://weibo.com/"
+1502586440242	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: chrome://global/content/browser-child.js, line 385: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDocShell.doCommand]
+1502586645712	geckodriver	INFO	geckodriver 0.18.0
+1502586645719	geckodriver	INFO	Listening on 127.0.0.1:51366
+1502586645811	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1502586647692	Marionette	INFO	Listening on port 51373
+1502586647808	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502586647943	Marionette	DEBUG	loaded listener.js
+2017-08-13 09:10:48.024 plugin-container[3284:70802] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9437, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-13 09:10:48.029 plugin-container[3284:70802] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9803, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1502586652715	Marionette	INFO	Ceased listening
+1502586654117	Marionette	INFO	Ceased listening
+1502586763813	geckodriver	INFO	geckodriver 0.18.0
+1502586763818	geckodriver	INFO	Listening on 127.0.0.1:51445
+1502586764883	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1502586766617	Marionette	INFO	Listening on port 51454
+1502586766692	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502586766870	Marionette	DEBUG	loaded listener.js
+1502586766898	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-13 09:12:46.954 plugin-container[3330:73554] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x963b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-13 09:12:46.957 plugin-container[3330:73554] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9903, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1502586767292	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1502586767292	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1502586767448	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=http%3A%2F%2Fweibo.com%2F&domain=.weibo.com&ua=php-sso_sdk_client-0.6.23&_rand=1502586769.8737"
+1502586767455	Marionette	DEBUG	Received DOM event "pageshow" for "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=http%3A%2F%2Fweibo.com%2F&domain=.weibo.com&ua=php-sso_sdk_client-0.6.23&_rand=1502586769.8737"
+1502587381025	geckodriver	INFO	geckodriver 0.18.0
+1502587381029	geckodriver	INFO	Listening on 127.0.0.1:51919
+1502587381216	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1502587388347	geckodriver	INFO	geckodriver 0.18.0
+1502587388352	geckodriver	INFO	Listening on 127.0.0.1:51963
+1502587389416	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1502587391435	Marionette	INFO	Listening on port 51972
+1502587391522	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502587391704	Marionette	DEBUG	loaded listener.js
+2017-08-13 09:23:11.794 plugin-container[3583:87854] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9433, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-13 09:23:11.797 plugin-container[3583:87854] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9703, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+1502587586861	geckodriver	INFO	geckodriver 0.18.0
+1502587586865	geckodriver	INFO	Listening on 127.0.0.1:52093
+1502587586953	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1502587588991	Marionette	INFO	Listening on port 52100
+1502587589072	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502587589253	Marionette	DEBUG	loaded listener.js
+2017-08-13 09:26:29.324 plugin-container[3697:92202] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x943b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-13 09:26:29.328 plugin-container[3697:92202] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9703, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1502587674991	geckodriver	INFO	geckodriver 0.18.0
+1502587674995	geckodriver	INFO	Listening on 127.0.0.1:52170
+1502587676098	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1502587676343	addons.manager	DEBUG	Application has been upgraded
+1502587676372	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider"]
+1502587676374	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
+1502587676377	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/GMPProvider.jsm
+1502587676378	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/PluginProvider.jsm
+1502587676379	addons.manager	DEBUG	Starting provider: XPIProvider
+1502587676379	addons.xpi	DEBUG	startup
+1502587676379	addons.xpi	INFO	Removing all system add-on upgrades.
+1502587676380	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+1502587676380	addons.xpi	INFO	Mapping aushelper@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/aushelper@mozilla.org.xpi
+1502587676380	addons.xpi	INFO	Mapping e10srollout@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/e10srollout@mozilla.org.xpi
+1502587676381	addons.xpi	INFO	Mapping firefox@getpocket.com to /Applications/Firefox.app/Contents/Resources/browser/features/firefox@getpocket.com.xpi
+1502587676381	addons.xpi	INFO	Mapping screenshots@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/screenshots@mozilla.org.xpi
+1502587676381	addons.xpi	INFO	Mapping webcompat@mozilla.org to /Applications/Firefox.app/Contents/Resources/browser/features/webcompat@mozilla.org.xpi
+1502587676381	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to /Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1502587676382	addons.xpi	DEBUG	checkForChanges
+1502587676382	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+1502587676382	addons.xpi	DEBUG	Loaded add-on state from prefs: {}
+1502587676383	addons.xpi	DEBUG	New add-on aushelper@mozilla.org in app-system-defaults
+1502587676384	addons.xpi	DEBUG	getModTime: Recursive scan of aushelper@mozilla.org
+1502587676384	addons.xpi	DEBUG	New add-on e10srollout@mozilla.org in app-system-defaults
+1502587676384	addons.xpi	DEBUG	getModTime: Recursive scan of e10srollout@mozilla.org
+1502587676385	addons.xpi	DEBUG	New add-on firefox@getpocket.com in app-system-defaults
+1502587676385	addons.xpi	DEBUG	getModTime: Recursive scan of firefox@getpocket.com
+1502587676386	addons.xpi	DEBUG	New add-on screenshots@mozilla.org in app-system-defaults
+1502587676386	addons.xpi	DEBUG	getModTime: Recursive scan of screenshots@mozilla.org
+1502587676386	addons.xpi	DEBUG	New add-on webcompat@mozilla.org in app-system-defaults
+1502587676387	addons.xpi	DEBUG	getModTime: Recursive scan of webcompat@mozilla.org
+1502587676387	addons.xpi	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1502587676387	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1502587676387	addons.xpi	DEBUG	getInstallState changed: true, state: {"app-system-defaults":{"aushelper@mozilla.org":{"d":"/Applications/Firefox.app/Contents/Resources/browser/features/aushelper@mozilla.org.xpi","st":1501124085000},"e10srollout@mozilla.org":{"d":"/Applications/Firefox.app/Contents/Resources/browser/features/e10srollout@mozilla.org.xpi","st":1501124085000},"firefox@getpocket.com":{"d":"/Applications/Firefox.app/Contents/Resources/browser/features/firefox@getpocket.com.xpi","st":1501124085000},"screenshots@mozilla.org":{"d":"/Applications/Firefox.app/Contents/Resources/browser/features/screenshots@mozilla.org.xpi","st":1501124084000},"webcompat@mozilla.org":{"d":"/Applications/Firefox.app/Contents/Resources/browser/features/webcompat@mozilla.org.xpi","st":1501124084000}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"/Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","st":1501124085000}}}
+1502587676393	addons.xpi-utils	DEBUG	Opening XPI database /var/folders/q2/7jn7qfd56lz5qm8mnx06143r0000gn/T/rust_mozprofile.U3m2XhZxBltq/extensions.json
+1502587676394	addons.xpi-utils	DEBUG	New add-on aushelper@mozilla.org installed in app-system-defaults
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+1502587676403	DeferredSave.extensions.json	DEBUG	Save changes
+1502587676403	addons.xpi-utils	DEBUG	New add-on e10srollout@mozilla.org installed in app-system-defaults
+1502587676407	DeferredSave.extensions.json	DEBUG	Starting timer
+1502587676409	DeferredSave.extensions.json	DEBUG	Save changes
+1502587676409	addons.xpi-utils	DEBUG	New add-on firefox@getpocket.com installed in app-system-defaults
+1502587676414	DeferredSave.extensions.json	DEBUG	Save changes
+1502587676414	addons.xpi-utils	DEBUG	New add-on screenshots@mozilla.org installed in app-system-defaults
+1502587676421	DeferredSave.extensions.json	DEBUG	Save changes
+1502587676421	addons.xpi-utils	DEBUG	New add-on webcompat@mozilla.org installed in app-system-defaults
+1502587676425	DeferredSave.extensions.json	DEBUG	Save changes
+1502587676425	addons.xpi-utils	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global
+1502587676428	DeferredSave.extensions.json	DEBUG	Save changes
+1502587676429	addons.manager	DEBUG	Registering startup change 'installed' for aushelper@mozilla.org
+1502587676436	addons.xpi	DEBUG	Loading bootstrap scope from /Applications/Firefox.app/Contents/Resources/browser/features/aushelper@mozilla.org.xpi
+1502587676439	addons.xpi	DEBUG	Calling bootstrap method install on aushelper@mozilla.org version 2.0
+1502587676439	addons.xpi-utils	DEBUG	Make addon app-system-defaults:aushelper@mozilla.org visible
+1502587676440	DeferredSave.extensions.json	DEBUG	Save changes
+1502587676441	addons.manager	DEBUG	Registering startup change 'installed' for e10srollout@mozilla.org
+1502587676441	addons.xpi	DEBUG	Loading bootstrap scope from /Applications/Firefox.app/Contents/Resources/browser/features/e10srollout@mozilla.org.xpi
+1502587676443	addons.xpi	DEBUG	Calling bootstrap method install on e10srollout@mozilla.org version 1.50
+1502587676443	addons.xpi-utils	DEBUG	Make addon app-system-defaults:e10srollout@mozilla.org visible
+1502587676444	DeferredSave.extensions.json	DEBUG	Save changes
+1502587676444	addons.manager	DEBUG	Registering startup change 'installed' for firefox@getpocket.com
+1502587676445	addons.xpi	DEBUG	Loading bootstrap scope from /Applications/Firefox.app/Contents/Resources/browser/features/firefox@getpocket.com.xpi
+1502587676447	addons.xpi	DEBUG	Calling bootstrap method install on firefox@getpocket.com version 1.0.5
+1502587676447	addons.xpi-utils	DEBUG	Make addon app-system-defaults:firefox@getpocket.com visible
+1502587676447	DeferredSave.extensions.json	DEBUG	Save changes
+1502587676447	addons.manager	DEBUG	Registering startup change 'installed' for screenshots@mozilla.org
+1502587676448	addons.xpi	DEBUG	Loading bootstrap scope from /Applications/Firefox.app/Contents/Resources/browser/features/screenshots@mozilla.org.xpi
+1502587676449	addons.xpi	DEBUG	Calling bootstrap method install on screenshots@mozilla.org version 6.6.0
+1502587676449	addons.xpi-utils	DEBUG	Make addon app-system-defaults:screenshots@mozilla.org visible
+1502587676450	DeferredSave.extensions.json	DEBUG	Save changes
+1502587676450	addons.manager	DEBUG	Registering startup change 'installed' for webcompat@mozilla.org
+1502587676450	addons.xpi	DEBUG	Loading bootstrap scope from /Applications/Firefox.app/Contents/Resources/browser/features/webcompat@mozilla.org.xpi
+1502587676452	addons.xpi	DEBUG	Calling bootstrap method install on webcompat@mozilla.org version 1.1
+1502587676452	addons.xpi-utils	DEBUG	Make addon app-system-defaults:webcompat@mozilla.org visible
+1502587676452	DeferredSave.extensions.json	DEBUG	Save changes
+1502587676452	addons.xpi-utils	DEBUG	Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible
+1502587676453	DeferredSave.extensions.json	DEBUG	Save changes
+1502587676453	addons.xpi	DEBUG	Updating XPIState for {"id":"aushelper@mozilla.org","syncGUID":"{0887031f-0500-994c-9c83-9039319e4b33}","location":"app-system-defaults","version":"2.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Application Update Service Helper","description":"Sets value(s) in the update url based on custom checks.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/Applications/Firefox.app/Contents/Resources/browser/features/aushelper@mozilla.org.xpi","installDate":1501124085000,"updateDate":1501124085000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":8488,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"54.0.1","maxVersion":"54.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1502587676453	addons.xpi	DEBUG	getModTime: Recursive scan of aushelper@mozilla.org
+1502587676453	addons.xpi	DEBUG	Updating XPIState for {"id":"e10srollout@mozilla.org","syncGUID":"{9bd241e3-6e39-5b4f-b0a7-cf3a4a18ad55}","location":"app-system-defaults","version":"1.50","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Multi-process staged rollout","description":"Staged rollout of Firefox multi-process feature.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/Applications/Firefox.app/Contents/Resources/browser/features/e10srollout@mozilla.org.xpi","installDate":1501124085000,"updateDate":1501124085000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":12519,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"54.0.1","maxVersion":"54.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1502587676454	addons.xpi	DEBUG	getModTime: Recursive scan of e10srollout@mozilla.org
+1502587676454	addons.xpi	DEBUG	Updating XPIState for {"id":"firefox@getpocket.com","syncGUID":"{88970fa6-d478-df48-a556-0865af91068f}","location":"app-system-defaults","version":"1.0.5","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Pocket","description":"When you find something you want to view later, put it in Pocket.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/Applications/Firefox.app/Contents/Resources/browser/features/firefox@getpocket.com.xpi","installDate":1501124085000,"updateDate":1501124085000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":913952,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"54.0.1","maxVersion":"54.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1502587676454	addons.xpi	DEBUG	getModTime: Recursive scan of firefox@getpocket.com
+1502587676454	addons.xpi	DEBUG	Updating XPIState for {"id":"screenshots@mozilla.org","syncGUID":"{4705d613-6e91-f24d-b707-a34a6d63b62b}","location":"app-system-defaults","version":"6.6.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Firefox Screenshots","description":null,"creator":null,"homepageURL":"https://pageshot.net/"},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/Applications/Firefox.app/Contents/Resources/browser/features/screenshots@mozilla.org.xpi","installDate":1501124084000,"updateDate":1501124084000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":716271,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"51.0a1","maxVersion":"*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1502587676454	addons.xpi	DEBUG	getModTime: Recursive scan of screenshots@mozilla.org
+1502587676454	addons.xpi	DEBUG	Updating XPIState for {"id":"webcompat@mozilla.org","syncGUID":"{ac0e4221-82b9-cb40-9879-56927edcefe1}","location":"app-system-defaults","version":"1.1","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Web Compat","description":"Urgent post-release fixes for web compatibility.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/Applications/Firefox.app/Contents/Resources/browser/features/webcompat@mozilla.org.xpi","installDate":1501124084000,"updateDate":1501124084000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":9006,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"54.0.1","maxVersion":"54.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1502587676454	addons.xpi	DEBUG	getModTime: Recursive scan of webcompat@mozilla.org
+1502587676455	addons.xpi	DEBUG	Updating XPIState for {"id":"{972ce4c6-7e08-4474-a285-3208198ce6fd}","syncGUID":"{8842f7e5-ec29-0440-9625-d66be983d723}","location":"app-global","version":"54.0.1","type":"theme","internalName":"classic/1.0","updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":"chrome://browser/content/default-theme-icon.svg","icon64URL":null,"defaultLocale":{"name":"Default","description":"The default theme.","creator":"Mozilla","homepageURL":null,"contributors":["Mozilla Contributors"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","installDate":1501124085000,"updateDate":1501124085000,"applyBackgroundUpdates":1,"skinnable":true,"size":3914,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"54.0.1","maxVersion":"54.0.1"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null}
+1502587676455	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1502587676455	DeferredSave.extensions.json	DEBUG	Save changes
+1502587676456	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1502587676456	addons.xpi-utils	DEBUG	Updating add-on states
+1502587676456	addons.xpi-utils	DEBUG	Writing add-ons list
+1502587676457	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/aushelper@mozilla.org.xpi
+1502587676458	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+1502587676458	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/e10srollout@mozilla.org.xpi
+1502587676459	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.50
+1502587676459	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/firefox@getpocket.com.xpi
+1502587676459	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1502587676460	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/screenshots@mozilla.org.xpi
+1502587676460	addons.xpi	DEBUG	Calling bootstrap method startup on screenshots@mozilla.org version 6.6.0
+1502587676460	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/webcompat@mozilla.org.xpi
+1502587676461	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.1
+1502587676464	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1502587676465	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1502587676466	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1502587676466	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1502587676466	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1502587676467	addons.manager	DEBUG	Starting provider: GMPProvider
+1502587676472	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1502587676472	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1502587676472	addons.manager	DEBUG	Starting provider: PluginProvider
+1502587676472	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1502587676472	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1502587676473	addons.manager	DEBUG	Completed startup sequence
+1502587676797	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1502587676798	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1502587676798	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1502587676819	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1502587676819	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1502587676819	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1502587676822	DeferredSave.extensions.json	DEBUG	Starting write
+1502587676951	DeferredSave.extensions.json	DEBUG	Write succeeded
+1502587676952	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19
+1502587678062	Marionette	INFO	Listening on port 52180
+1502587678122	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502587678324	Marionette	DEBUG	loaded listener.js
+1502587678356	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-13 09:27:58.410 plugin-container[3742:94216] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x963b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-13 09:27:58.413 plugin-container[3742:94216] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9903, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1502587678734	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1502587678734	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1502587679180	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zhihu.com/"
+1502587679939	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zhihu.com/"
+1502587688029	Marionette	INFO	Ceased listening
+1502587689957	Marionette	INFO	New connections will no longer be accepted
+1502587689962	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 1.1
+1502587689963	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 6.6.0
+1502587689963	addons.xpi	DEBUG	Calling bootstrap method shutdown on firefox@getpocket.com version 1.0.5
+1502587689964	addons.xpi	DEBUG	Calling bootstrap method shutdown on e10srollout@mozilla.org version 1.50
+1502587689964	addons.xpi	DEBUG	Calling bootstrap method shutdown on aushelper@mozilla.org version 2.0
+1502587691811	Marionette	INFO	Ceased listening
+1502587693464	Marionette	INFO	Ceased listening
