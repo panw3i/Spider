@@ -16,8 +16,10 @@ class LagouSpider(CrawlSpider):
     # 制定匹配规则
     # 在匹配到页面的url符合前两个规则的时候，继续follow此页面符合第三条规则的链接，并调用parse_job函数进行处理，当然在此页面继续follow
     rules = (
-        Rule(LinkExtractor(allow=(r'zhaopin/.*', )), follow=True),
-        Rule(LinkExtractor(allow=(r'gongsi/j\d+.html', )), follow=True),
+        Rule(LinkExtractor(allow=(r'zhaopin/.*',)), follow=True),
+        Rule(LinkExtractor(allow=(r'gongsi/j\d+.html',)), follow=True),
+
+        # 方法不属性类
         Rule(LinkExtractor(allow=r'/jobs/\d+.html'), callback='parse_job', follow=True),
     )
 

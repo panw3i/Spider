@@ -56,10 +56,10 @@ COOKIES_ENABLED = False
 # Enable or disable downloader middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 DOWNLOADER_MIDDLEWARES = {
-    # 'ArticleSpider.middlewares.RandomUserAgentMiddleware': 1,
+    'ArticleSpider.middlewares.RandomUserAgentMiddleware': 1,
     # 'ArticleSpider.middlewares.JSPageMiddleware': 2,
     # 禁用默认的设置user-agent的middleware，优先值设为None
-    # 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': None,
+    'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': None,
 }
 
 # Enable or disable extensions
@@ -117,6 +117,7 @@ MYSQL_DBNAME = "articlespider"
 MYSQL_USER = "root"
 MYSQL_PASSWORD = "ssjusher123"
 
+# 日期格式化
 SQL_DATETIME_FORMAT = "%Y-%m-%d %H:%M:%S"
 SQL_DATE_FORMAT = "%Y-%m-%d"
 

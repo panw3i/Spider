@@ -4,7 +4,7 @@ import requests
 import pymysql
 from scrapy.selector import Selector
 
-conn = pymysql.connect(host="127.0.0.1", user="root", passwd="ssjusher123", db="articlespider", charset="utf8")
+conn = pymysql.connect(host="127.0.0.1", user="root", passwd="root", db="proxy", charset="utf8")
 cursor = conn.cursor()
 
 
@@ -13,7 +13,7 @@ def crawl_ip():
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
     }
 
-    for i in range(1, 100):
+    for i in range(2):
         response = requests.get("http://www.xicidaili.com/nn/{0}".format(i), headers=headers)
         selector = Selector(text=response.text)
 
@@ -32,10 +32,15 @@ def crawl_ip():
             ip_list.append((country, ip_address, port, server_address, type, speed, connect_time))
 
         for item in ip_list:
+            print(item)
             sql = """
-                insert into ip_pool(country, ip_address, port, server_address, types, speed, connect_time) VALUES
+                insert into ip_pool(country, ip_address, port, server_address, type, speed, connect_time) VALUES
                 ('{0}', '{1}', {2}, '{3}', '{4}', {5}, {6}) ON DUPLICATE KEY UPDATE ip_address=VALUES(ip_address)
             """.format(item[0], item[1], item[2], item[3], item[4], item[5], item[6])
 
             cursor.execute(sql)
             conn.commit()
+
+
+if __name__ == '__main__':
+    crawl_ip()
