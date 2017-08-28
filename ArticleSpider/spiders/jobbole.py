@@ -18,7 +18,7 @@ class JobboleSpider(scrapy.Spider):
 
     #  这里只是示范，爬取伯乐在线文章并不需要动态加载
     def __init__(self):
-        self.browser = webdriver.Chrome(executable_path="C:/Users/shishengjia/PycharmProjects/chromedriver_win32/chromedriver.exe")
+        self.browser = webdriver.Chrome(executable_path="/Users/yons/webdriver/chromedriver")
         super(JobboleSpider, self).__init__()
         # 使用信号量，当spider关闭的时候调用spider_closed函数关闭浏览器
         dispatcher.connect(self.spider_closed, signals.spider_closed)

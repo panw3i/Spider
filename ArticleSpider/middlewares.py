@@ -98,17 +98,20 @@ class RandomUserAgentMiddleware(object):
 #         request.meta['proxy'] = random_ip
 
 #
-# class JSPageMiddleware(object):
-#     """
-#     scrapy本身是异步的框架，但是这里chrome是同步的请求，性能会下降，所以要重写downloader
-#     """
-#
-#     def process_item(self, request, spider):
-#         """
-#         具体哪些网站，哪些url需要使用动态加载，可以自己指定，这里只是做个示范
-#         """
-#         if spider.name == 'taobao':
-#             browser = spider.browser
-#             browser.get(request.url)
-#             time.sleep(5)
-#             return HtmlResponse(url=browser.current_url, body=browser.page_source)
+class JSPageMiddleware(object):
+    """
+    scrapy本身是异步的框架，但是这里chrome是同步的请求，性能会下降，所以要重写downloader
+    """
+
+    def process_request(self, request, spider):
+        """
+        具体哪些网站，哪些url需要使用动态加载，可以自己指定，这里只是做个示范
+        """
+        if spider.name == 'jobbole':
+            self.browser = spider.browser
+            self.browser.get(request.url)
+            time.sleep(5)
+            print(request.url)
+
+            # 直接将 Response 返回 不交给下载器
+            return HtmlResponse(url=self.browser.current_url, body=self.browser.page_source)

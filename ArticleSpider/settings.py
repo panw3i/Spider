@@ -28,7 +28,10 @@ ROBOTSTXT_OBEY = False
 # Configure a delay for requests for the same website (default: 0)
 # See http://scrapy.readthedocs.org/en/latest/topics/settings.html#download-delay
 # See also autothrottle settings and docs
+
+# 下载延时 1 秒
 DOWNLOAD_DELAY = 1
+
 # The download delay setting will honor only one of:
 # CONCURRENT_REQUESTS_PER_DOMAIN = 16
 # CONCURRENT_REQUESTS_PER_IP = 16
@@ -36,7 +39,7 @@ DOWNLOAD_DELAY = 1
 # Disable cookies (enabled by default)
 
 # 对于不用登陆的网站的爬取，需要设置为False，对于需要登陆的网站，如知乎，则就在代码中去动态设置为True
-COOKIES_ENABLED = False
+COOKIES_ENABLED = True
 
 # Disable Telnet Console (enabled by default)
 # TELNETCONSOLE_ENABLED = False
@@ -57,7 +60,7 @@ COOKIES_ENABLED = False
 # See http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 DOWNLOADER_MIDDLEWARES = {
     'ArticleSpider.middlewares.RandomUserAgentMiddleware': 1,
-    # 'ArticleSpider.middlewares.JSPageMiddleware': 2,
+    'ArticleSpider.middlewares.JSPageMiddleware': 2,
     # 禁用默认的设置user-agent的middleware，优先值设为None
     'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': None,
 }

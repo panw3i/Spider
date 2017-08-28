@@ -32,7 +32,7 @@ class ZhihuSpider(scrapy.Spider):
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
     }
 
-    # ?
+    # 自定义cookies 覆盖掉settings的配置
     custom_settings = {
         'COOKIES_ENABLED': True
     }
@@ -114,10 +114,6 @@ class ZhihuSpider(scrapy.Spider):
         # 不是回答结尾的话继续通过next_url获得回答
         if not is_end:
             yield scrapy.Request(next_url, headers=self.headers, callback=self.parse_answer)
-
-
-
-
 
     def start_requests(self):
         """
