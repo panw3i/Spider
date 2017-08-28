@@ -58,11 +58,19 @@ COOKIES_ENABLED = True
 
 # Enable or disable downloader middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
+
+
+# 将splash middleware添加到DOWNLOADER_MIDDLEWARE中：
 DOWNLOADER_MIDDLEWARES = {
     'ArticleSpider.middlewares.RandomUserAgentMiddleware': 1,
-    'ArticleSpider.middlewares.JSPageMiddleware': 2,
+    # 'ArticleSpider.middlewares.JSPageMiddleware': 2,
     # 禁用默认的设置user-agent的middleware，优先值设为None
     'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': None,
+
+    'scrapy_splash.SplashCookiesMiddleware': 723,
+    'scrapy_splash.SplashMiddleware': 725,
+    'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware': 810,
+
 }
 
 # Enable or disable extensions
@@ -128,3 +136,17 @@ ES_HOST = "127.0.0.1"
 
 # 设置随机生成的User_Agent的浏览器类型
 RANDOM_UA_TYPE = "random"
+
+# splash 服务器地址
+SPLASH_URL = 'http://localhost:8050'
+
+# Enable SplashDeduplicateArgsMiddleware:
+SPIDER_MIDDLEWARES = {
+    'scrapy_splash.SplashDeduplicateArgsMiddleware': 100,
+}
+
+# Set a custom DUPEFILTER_CLASS
+DUPEFILTER_CLASS = 'scrapy_splash.SplashAwareDupeFilter'
+
+# a custom cache storage backend
+HTTPCACHE_STORAGE = 'scrapy_splash.SplashAwareFSCacheStorage'

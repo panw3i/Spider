@@ -4,6 +4,7 @@ from urllib import parse
 from scrapy import signals
 from selenium import webdriver
 from scrapy.xlib.pydispatch import dispatcher
+from scrapy_splash import SplashRequest
 
 import scrapy
 
@@ -17,14 +18,14 @@ class JobboleSpider(scrapy.Spider):
     start_urls = ['http://blog.jobbole.com/all-posts/']
 
     #  这里只是示范，爬取伯乐在线文章并不需要动态加载
-    def __init__(self):
-        self.browser = webdriver.Chrome(executable_path="/Users/yons/webdriver/chromedriver")
-        super(JobboleSpider, self).__init__()
-        # 使用信号量，当spider关闭的时候调用spider_closed函数关闭浏览器
-        dispatcher.connect(self.spider_closed, signals.spider_closed)
-
-    def spider_closed(self, spider):
-        self.browser.quit()
+    # def __init__(self):
+    #     self.browser = webdriver.Chrome(executable_path="/Users/yons/webdriver/chromedriver")
+    #     super(JobboleSpider, self).__init__()
+    #     # 使用信号量，当spider关闭的时候调用spider_closed函数关闭浏览器
+    #     dispatcher.connect(self.spider_closed, signals.spider_closed)
+    #
+    # def spider_closed(self, spider):
+    #     self.browser.quit()
 
     def parse(self, response):
         # 当前页的所有文章的url
@@ -37,8 +38,12 @@ class JobboleSpider(scrapy.Spider):
             # 文章url
             post_url = post_node.css('::attr(href)').extract_first('')
 
-            yield Request(url=parse.urljoin(response.url, post_url), meta={'front_image_url': image_url},
-                          callback=self.parse_details)
+            # yield Request(url=parse.urljoin(response.url, post_url), meta={'front_image_url': image_url},
+            #               callback=self.parse_details)
+
+            yield SplashRequest(post_url, self.parse_details, args={'wait': 0.5})
+
+
 
         # 提取下一页url并交给scrapy进行下载
         next_url = response.css(".next.page-numbers::attr(href)").extract_first("")
