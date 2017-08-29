@@ -6,6 +6,9 @@ from selenium import webdriver
 from scrapy.xlib.pydispatch import dispatcher
 from scrapy_splash import SplashRequest
 
+# 引入日志模块
+import logging
+
 import scrapy
 
 from items import JobBoleArticleItem, ArticleItemLoader
@@ -31,6 +34,9 @@ class JobboleSpider(scrapy.Spider):
         # 当前页的所有文章的url
         post_nodes = response.css('#archive .floated-thumb .post-thumb a')
 
+        # 打印日志
+        logging.info("这是一和消息 ,表示正在爬取信息")
+
         # scrapy下载内容并进行解析
         for post_node in post_nodes:
             # 封面图url
@@ -42,8 +48,6 @@ class JobboleSpider(scrapy.Spider):
             #               callback=self.parse_details)
 
             yield SplashRequest(post_url, self.parse_details, args={'wait': 0.5})
-
-
 
         # 提取下一页url并交给scrapy进行下载
         next_url = response.css(".next.page-numbers::attr(href)").extract_first("")
